@@ -9,8 +9,6 @@ import Home from './pages/Home';
 import Courses from './pages/Courses';
 import CourseDetail from './pages/CourseDetail';
 import Categories from './pages/Categories';
-import Tags from './pages/Tags';
-import Stats from './pages/Stats';
 import { Container } from '@mui/material';
 
 function App() {
@@ -23,8 +21,6 @@ function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/courses/:id" element={<CourseDetail />} />
           <Route path="/categories" element={<Categories />} />
-          <Route path="/tags" element={<Tags />} />
-          <Route path="/stats" element={<Stats />} />
         </Routes>
       </Container>
       <Footer />
